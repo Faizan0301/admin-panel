@@ -32,7 +32,7 @@ app.get('/error-500',(req,res)=>{return res.render("error-500")})
 
 app.get('/form-basic',(req,res)=>{return res.render("form-basic")})
 
-app.get('/orm-wizard',(req,res)=>{return res.render("orm-wizard")})
+app.get('/form-wizard',(req,res)=>{return res.render("form-wizard")})
 
 app.get('/grid',(req,res)=>{return res.render("grid")})
 
